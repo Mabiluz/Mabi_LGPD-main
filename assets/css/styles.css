@@ -2,58 +2,46 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Danfo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Emblema+One&family=Odor+Mean+Chey&family=Poetsen+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Emblema+One&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Odor+Mean+Chey&family =Poetsen+Um&display=trocar");
-ul.blocos {
+.menu {
   display: flex;
-  justify-content: space-around;
   list-style: none;
   padding: 0;
   margin: 0;
+  justify-content: space-between;
 }
-ul.blocos li {
+.menu li {
   display: flex;
-  flex: 1;
   align-items: center;
   justify-content: center;
-  min-height: 200px;
-}
-ul.blocos li:nth-child(1) {
-  background-color: rgb(201, 93, 228);
-}
-ul.blocos li:nth-child(2) {
-  background-color: rgb(251, 150, 218);
-}
-ul.blocos li:nth-child(3) {
-  background-color: rgb(80, 222, 232);
 }
 
-ul.blocos {
+.blocos {
+  min-height: 100vh;
   display: flex;
-  justify-content: space-around;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-ul.blocos li {
-  display: flex;
-  flex: 1;
-  align-items: center;
   justify-content: center;
-  min-height: 200px;
+  align-items: center;
 }
-ul.blocos li:nth-child(1) {
-  background-color: rgb(201, 93, 228);
+.blocos.top1 {
+  background-color: rgb(152, 94, 206);
 }
-ul.blocos li:nth-child(2) {
-  background-color: rgb(251, 150, 218);
+.blocos.top2 {
+  background-color: cadetblue;
 }
-ul.blocos li:nth-child(3) {
-  background-color: rgb(80, 222, 232);
+.blocos.top3 {
+  background-color: cornflowerblue;
 }
-ul.blocos li:nth-child(4) {
-  background-color: rgb(80, 222, 232);
+.blocos.top4 {
+  background-color: darksalmon;
 }
-ul.blocos li:nth-child(5) {
-  background-color: rgb(80, 222, 232);
+.blocos.top5 {
+  background-color: darksalmon;
+}
+
+.blocos {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mabiluz {

@@ -1,0 +1,28 @@
+.blocos {
+
+    min-height: 100vh; // ViewPort Height // Altura máxima da área de vibilidade
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &.top1 {
+
+         background-color: rgb(152, 94, 206);
+    }
+    &.top2{
+
+        background-color: cadetblue;
+    }
+    &.top3 {
+
+        background-color: cornflowerblue;
+    }
+    &.top4 {
+
+        background-color: darksalmon;
+    }
+    &.top5 {
+
+        background-color: darksalmon;
+    }
+  }
