@@ -2,34 +2,46 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Danfo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Emblema+One&family=Odor+Mean+Chey&family=Poetsen+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Emblema+One&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Odor+Mean+Chey&family =Poetsen+Um&display=trocar");
-ul.blocos {
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-ul.blocos li {
-  display: flex;
-  flex: 1;
-  align-items: center;
-  justify-content: center;
-  min-height: 200px;
-}
-ul.blocos li:nth-child(1) {
+.mabiluz {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
   background-color: rgb(217, 165, 33);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3 ease;
 }
-ul.blocos li:nth-child(2) {
-  background-color: rgb(217, 165, 33);
+.mabiluz:hover {
+  background-color: rgb(255, 184, 4);
 }
-ul.blocos li:nth-child(3) {
-  background-color: rgb(217, 165, 33);
+.mabiluz:focus {
+  outline: none;
 }
-ul.blocos li:nth-child(4) {
-  background-color: rgb(217, 165, 33);
+.mabiluz:active {
+  transform: translateY(2px);
 }
-ul.blocos li:nth-child(5) {
+
+.mabi {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
   background-color: rgb(217, 165, 33);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3 ease;
+}
+.mabi:hover {
+  background-color: rgb(255, 184, 4);
+}
+.mabi:focus {
+  outline: none;
+}
+.mabi:active {
+  transform: translateY(2px);
 }
 
 .h1mabi {
