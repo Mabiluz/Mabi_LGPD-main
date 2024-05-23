@@ -2,11 +2,65 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Danfo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Emblema+One&family=Odor+Mean+Chey&family=Poetsen+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Emblema+One&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Odor+Mean+Chey&family =Poetsen+Um&display=trocar");
+ul.blocos {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul.blocos li {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+}
+ul.blocos li:nth-child(1) {
+  background-color: rgb(201, 93, 228);
+}
+ul.blocos li:nth-child(2) {
+  background-color: rgb(251, 150, 218);
+}
+ul.blocos li:nth-child(3) {
+  background-color: rgb(80, 222, 232);
+}
+
+ul.blocos {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul.blocos li {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+}
+ul.blocos li:nth-child(1) {
+  background-color: rgb(201, 93, 228);
+}
+ul.blocos li:nth-child(2) {
+  background-color: rgb(251, 150, 218);
+}
+ul.blocos li:nth-child(3) {
+  background-color: rgb(80, 222, 232);
+}
+ul.blocos li:nth-child(4) {
+  background-color: rgb(80, 222, 232);
+}
+ul.blocos li:nth-child(5) {
+  background-color: rgb(80, 222, 232);
+}
+
 .mabiluz {
   display: inline-block;
   padding: 10px 20px;
   font-size: 16px;
-  background-color: rgb(255, 184, 4);
+  background-color: rgb(217, 165, 33);
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -27,7 +81,7 @@
   display: inline-block;
   padding: 10px 20px;
   font-size: 16px;
-  background-color: rgb(255, 184, 4);
+  background-color: rgb(217, 165, 33);
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -52,6 +106,43 @@
   font-variation-settings: "ELSH" 0;
 }
 
+.mabiluz {
+  background-color: #2196F3;
+  border: none;
+  color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.5s ease;
+}
+
+.botao:hover {
+  background-color: #4CAF50;
+}
+
+.mabi {
+  background-color: #2196F3;
+  border: none;
+  color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.5s ease;
+}
+
+.botao:hover {
+  background-color: #4CAF50;
+}
 
 .li {
   background-color: chocolate;
@@ -147,12 +238,3 @@ aside {
   padding: 15px;
   border-left: 3px solid rgb(217, 165, 33);
 }/*# sourceMappingURL=styles.css.map */
-
-.container {
-  max-width: 1140px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(217, 165, 33);
-  margin-left: auto;
-  margin-right: auto;
-}
